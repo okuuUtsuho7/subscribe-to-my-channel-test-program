@@ -27,7 +27,7 @@ int main()
 		// If the user refuses to subscribe, this will delete their files (still not final)
 		case IDNO:
 			
-			const char* folderPath = "C:\\Users\\Reiuji Utsuho\\Desktop\\Test Folder";
+			const char* folderPath = "C:\\Your\\prefered\\folder\\path";
 			bool result = DeleteDirectory(folderPath);
 
     		if (!result) 
